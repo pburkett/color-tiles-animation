@@ -8,9 +8,9 @@ export const RemotionVideo: React.FC = () => {
 			<Composition
 				id="hexagons"
 				component={Hexagons}
-				durationInFrames={1440}
+				durationInFrames={2400}
 				fps={24}
-				height={1920}
+				height={600}
 				width={1080}
 			/>
 			

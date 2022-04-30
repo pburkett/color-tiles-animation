@@ -6,10 +6,10 @@ export const Hexagons: React.FC = () => {
   const shrinkScalar = .15
   const height = 419.04
   const width = 362.16
+  utils.tweakColors()
   const borderColor = utils.pickColor()
-
-  const hexagons = Array.from({ length: 45 }, (_, rowIndex) => {
-    const row = Array.from({ length: 30 }, (_, tileIndex) => {
+  const hexagons = Array.from({ length: 10 }, (_, rowIndex) => {
+    const row = Array.from({ length: 10 }, (_, tileIndex) => {
     const color = utils.pickColor(rowIndex, tileIndex)
     return (
 	<Hexagon
